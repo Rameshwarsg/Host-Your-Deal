@@ -1,0 +1,14 @@
+/*
+Theme Name: Smart Giraffes
+Description: A custom theme made by the Smart Giraffes.
+
+*/
+
+/* Reset Browser Defaults */
+@import url( 'css/reset.css' );
+
+/* Apply base theme styles and colors */
+@import url( 'css/base.css' );
+
+/* Stylistic CSS Styles */
+@import url( 'css/screen.css' );

@@ -1,0 +1,86 @@
+/* Document Body */
+body, input, textarea { padding: 0; margin: 0; font-size: 12px; line-height: 20px; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+
+/* Paragraphs */
+p { line-height: 20px; }
+
+/* Links */
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Vertical Rhythm  */
+p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form { margin-bottom: 20px; }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 { clear: both; padding: 0; margin-bottom: 15px; }
+h1 { font-size: 24px; line-height: 28px; font-weight: normal; }
+h2 { font-size: 20px; line-height: 24px; font-weight: bold; }
+h3 { font-size: 16px; line-height: 20px; font-weight: normal; }
+h4 { font-size: 14px; line-height: 18px; font-weight: bold; }
+h5 { font-size: 14px; line-height: 18px; font-weight: normal; }
+h6 { font-size: 12px; line-height: 16px; font-weight: normal; }
+
+/* Text Elements */
+address { font-style: italic; }
+abbr[title], acronym[title], dfn[title] { cursor: help; }
+
+blockquote { font-style: normal; padding: 25px 20px 25px 45px; margin: 0 25px; font-size: 20px; line-height: 24px; font-style: italic; font-family: Georgia,Times,"Times New Roman",serif; }
+blockquote p { line-height: 24px; }
+blockquote.alignleft,
+blockquote.alignright { width: 220px; margin: 25px 20px 0 20px; padding-top: 10px; padding-bottom: 10px; }
+
+strong { font-weight: bold; }
+em, dfn, cite { font-style: italic; }
+dfn { font-weight: bold; }
+
+sup { bottom: 1ex; }
+sub { top: .5ex; }
+small { font-size: 12px; }
+
+del { text-decoration: line-through; }
+ins { text-decoration: underline; }
+
+code, pre {  line-height: 15px; }
+var, kbd, samp, code, pre { font: 12px/1.4 Consolas, "Andale Mono", Courier, "Courier New", monospace; }
+kbd { font-weight: bold; }
+samp, var { font-style: italic; }
+pre { white-space: pre; overflow: auto; padding: 10px; clear: both; }
+code { padding: 0px 3px; }
+
+/* Lists: (ul, ol, dl) */
+ul, ol, dl { margin-left: 20px; }
+
+li ul, li ol { margin-bottom: 0; }
+ul ul, ol ol, ul ol, ol ul { margin-bottom: 0; }
+
+ol { list-style-type: decimal; }
+
+ul { list-style-type: disc; }
+ul ul { list-style-type: circle; }
+ul ul ul { list-style-type: square; }
+
+dt { font-weight: bold; }
+
+li { padding-top: 2px; padding-bottom: 2px; }
+
+/* Forms */
+input, textarea { border: 0; font-size: 13px; padding-left: 10px; padding-right: 10px; }
+input { height: 40px; }
+.ie7 input,
+.ie8 input { height: 30px; padding-top: 10px; }
+textarea { height: 180px; padding: 10px; }
+button { padding-bottom: 4px!important; }
+.ie7 button { padding-left: 3px!important; padding-right: 3px!important; border: 0; }
+.ie8 button { padding-left: 20px!important; padding-right: 20px!important; border: 0; }
+
+/* [gallery] */
+.gallery { margin: 0 0 0 -40px; }
+.gallery-item { margin: 0 -0.27em 40px 40px; width: 85px; display: inline-block; overflow: hidden; vertical-align: top; text-align: center; }
+.ie7 .gallery-item { display: inline; margin-right: 0;}
+.gallery-caption { margin: 5px 0 0 0; font-size: 12px; line-height: 16px; font-weight: normal; font-style: italic; font-family: Georgia,Times,"Times New Roman",serif; }
+.gallery-caption-hidden { display: none; }
+
+/* Basic Alignments */
+.alignleft { float: left; margin-right: 25px; margin-bottom: 20px; }
+.alignright { float: right; margin-left: 25px; margin-bottom: 20px; }
+.aligncenter { margin-left: auto; margin-right: auto; display: block; clear: both; margin-bottom: 20px; }

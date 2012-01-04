@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+Theme Name:Showcase
+Theme URI:
+Author:Smart Giraffes
+Author URI:http://www.smartgiraffes.com
+*/
+
+@import url('comment.css');
+
+/*-- START SECTION 1 - Reset Styling --*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+ol, ul { list-style: none; }
+blockquote { quotes: none; }
+blockquote:before, blockquote:after {
+	content: '';
+	content: none;
+}
+del { text-decoration: line-through; }
+
+h1, h2, h3, h4, h5, h6 { clear: both; font-weight: normal;  margin-bottom:15px; }
+h1, h2 { font-size:24px;  }
+h3, h4 { font-size:20px;}
+ 
+
+/* tables still need 'cellspacing="0"' in the markup */
+
+table { border-collapse: collapse; border-spacing: 0;}
+a img, img { border: none; }
+p { margin-bottom: 18px; }
+
+.clear, .clearfix { clear:both; }
+
+input[type="text"], input[type="password"], textarea {
+	padding:4px 4px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	width:220px;
+	border:1px solid #765448;
+}
+select { padding:2px 2px; border:1px solid #765448; }
+
+a { text-decoration:none; outline:none;}
+
+/*-- END SECTION 1 - Reset Styling --*/
+
+#body-wrapper { width:100%;  background:url(images/body-bg.png) repeat; }
+#wrapper { width:960px; margin:0 auto; padding:0;}
+
+/**  HEADER  STYLE  **/
+#header { padding:0;position:relative;}
+
+#logo {width:300px; position:absolute; padding:63px 0 0 0;}
+#logo a { float:left; display:block; width:291px; height:116px; background:url(images/logo.png) no-repeat top left; text-indent:-99999px; }
+
+
+#main-menu { margin:0; padding:134px 0 57px 0;}
+#main-menu ul{ padding:0; list-style:none;  color:#E2E2E2; }
+#main-menu li { float:left; display:block; background:url(images/menu-seprator.png) no-repeat;  padding:0 25px 0 10px; height:25px; line-height:10px; }
+#main-menu li a { font-size:12px;  color:#E2E2E2; font-family:Georgia, "Times New Roman", Times, serif, Arial;}
+
+/*#main-menu li.menu-sub{ float:none;}
+#main-menu .menu-sub:hover{ background:url(images/menu-hoover-bg.png) no-repeat;  }*/
+
+/*** BANNER STYLE ***/
+
+/** BODY CONTENT STYLE HERE **/
+#main { float:left; display:block; width:100%; padding:0 0; margin:0; line-height:18px;  }
+
+
+
+
+/*** SIDE ABT STYLE **/
+
+
+/** HOMEPAGE CONTETN STYLE **/
+          /*** ...top-content ***/
+#homepage-content .top-content{ padding-bottom:400px;}
+.top-content .slide { float:left; width:620px; font-size:12px;}
+.top-content .slide a{ float:right;}
+.top-content .slide li.first{ float:left; padding: 15px 0 0 5px;}
+.top-content .slide li.second{ float:left; padding:19px 0 0 4px;}
+.top-content .slide li.third{ float:right; padding-right:310px; padding-top:19px;}
+.top-content .slide .readmore{ float:right; margin-top:-288px; margin-right:10px;}
+.top-content .slide .iphone{ float:right; margin:-209px 54px 0 0; position:relative;}
+.top-content .post { float:right; width:315px; font-family:Arial, Helvetica, sans-serif;}
+.top-content .post h1{ font-size:12px; color:#E2E2E2; margin-bottom:12px;} 
+.top-content .post p{ font-size:11px; color:#E2E2E2;} 
+
+          /*** ...middle1-content ***/
+#homepage-content .middle1-content{ padding-bottom:680px;}
+.middle1-content { padding-bottom:100px;   }
+.middle1-content .slide { float:left;  width:620px;}
+.middle1-content .slide a{ float:right;}
+.middle1-content .slide li.first{ float:left; padding-left:5px;}
+.middle1-content .slide li.second{ float:right; padding-right:523px; padding-top:4px;}
+.middle1-content .slide .readmore{ float:right; margin-top:-548px; margin-right:5px;}
+
+
+.middle1-content .post { float:right;  width:315px; font-family:Arial, Helvetica, sans-serif;} 
+.middle1-content .post h1{ font-size:12px; color:#E2E2E2; margin-bottom:12px;} 
+.middle1-content .post p{ font-size:11px; color:#E2E2E2;} 
+
+          /*** ...middle2-content ***/
+		  #homepage-content .middle2-content{ padding-bottom:413px;}
+
+.middle2-content {  padding-bottom:100px;  }
+.middle2-content .slide { float:left; width:620px;}
+.middle2-content .slide li.first { float:left; padding-right:5px;}
+
+.middle2-content .slide .readmore{ float:right; margin-top:-288px; margin-right:5px;}
+
+.middle2-content .post { float:right; width:315px; font-family:Arial, Helvetica, sans-serif;} 
+.middle2-content .post h1{ font-size:12px; color:#E2E2E2; margin-bottom:12px;} 
+.middle2-content .post p{ font-size:11px; color:#E2E2E2;} 
+
+          /*** ...buttom-content ***/
+.buttom-content {  padding-bottom:100px;}
+.buttom-content .slide { float:left;  width:620px; position:relative;}
+.buttom-content .slide a{ float:right; padding:4px;}
+.buttom-content .slide li.first{ float:left; padding-left:5px;}
+.buttom-content .slide li.second{ float:right; padding-right:523px; padding-top:4px;}
+.buttom-content .slide .readmore{ float:right; margin-top:-644px; margin-right:-3px;}
+
+.buttom-content .post { float:right; width:315px; font-family:Arial, Helvetica, sans-serif;} 
+.buttom-content .post h1{ font-size:12px; color:#E2E2E2; margin-bottom:12px;} 
+.buttom-content .post p{ font-size:11px; color:#E2E2E2;} 
+
+
+
+
+
+/**  FOOTER STYLE **/
+#footer { padding:40px 0 50px 0; font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+#footer p{ color:#D4D4D4; }
+#footer a{ color:#F26C4F;}

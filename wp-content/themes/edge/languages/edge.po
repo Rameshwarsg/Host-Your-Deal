@@ -1,0 +1,138 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "% Comments"
+msgstr ""
+
+msgid "%1$s at %2$s"
+msgstr ""
+
+msgid "1 Comment"
+msgstr ""
+
+msgid "1 Comment to %2$s"
+msgid_plural "%1$s Comments to %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "<span class=\"meta-nav\">&laquo;</span> Older Comments"
+msgstr ""
+
+msgid "<span class=\"post-categories\"><span class=\"separator\">|</span>Full size is %s pixels</span>"
+msgstr ""
+
+msgid "<span class=\"author\">by %1$s</span><span class=\"published\"><span class=\"separator\">|</span>on %2$s</span>"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+msgid "Apologies, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr ""
+
+msgid "Attachment: %s"
+msgstr ""
+
+msgid "Author Archives: %s"
+msgstr ""
+
+msgid "Category Archives: %s"
+msgstr ""
+
+msgid "Contact Form Submission from %s"
+msgstr ""
+
+msgid "Daily Archives: %s"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Leave a comment"
+msgstr ""
+
+msgid "Link to full-size image"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Monthly Archives: %s"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Newer Comments <span class=\"meta-nav\">&raquo;</span>"
+msgstr ""
+
+msgid "Not Found"
+msgstr ""
+
+msgid "Nothing Found"
+msgstr ""
+
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr ""
+
+msgid "Pingback:"
+msgstr ""
+
+msgid "in %s"
+msgstr ""
+
+msgid "read more &raquo;"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Search Results for: %s"
+msgstr ""
+
+msgid "Send Message"
+msgstr ""
+
+msgid "Sending your message..."
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "Tag Archives: %s"
+msgstr ""
+
+msgid "tagged %s"
+msgstr ""
+
+msgid "The Page could not be found"
+msgstr ""
+
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+msgid "View all posts by %s"
+msgstr ""
+
+msgid "Website"
+msgstr ""
+
+msgid "Yearly Archives: %s"
+msgstr ""
+
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+msgid "browse:"
+msgstr ""
+
+msgid "search..."
+msgstr ""

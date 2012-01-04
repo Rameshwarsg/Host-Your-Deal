@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+Theme Name:Perfect Interview
+Theme URI:
+Author:SmartGiraffes
+Author URI:http://www.smartgiraffes.com
+*/
+
+
+/*Fonts */
+@font-face {
+    font-family: 'GenevaRegular';
+    src: url('../fonts/geneva-webfont.eot');
+    src: url('fonts/geneva-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/geneva-webfont.woff') format('woff'),
+         url('fonts/geneva-webfont.ttf') format('truetype'),
+         url('fonts/geneva-webfont.svg#GenevaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BertholdAkzidenzGroteskBEBdCn';
+    src: url('fonts/berthold_akzidenz_grotesk_be_bold_condensed-webfont.eot');
+    src: url('fonts/berthold_akzidenz_grotesk_be_bold_condensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/berthold_akzidenz_grotesk_be_bold_condensed-webfont.woff') format('woff'),
+         url('fonts/berthold_akzidenz_grotesk_be_bold_condensed-webfont.ttf') format('truetype'),
+         url('fonts/berthold_akzidenz_grotesk_be_bold_condensed-webfont.svg#BertholdAkzidenzGroteskBEBdCn') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import url('comment.css');
+
+/*-- START SECTION 1 - Reset Styling --*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background:transparent;
+	border:0;
+	margin:0;
+	padding:0;
+	vertical-align:baseline;
+}
+
+ol, ul { list-style:none; }
+blockquote { quotes:none; }
+blockquote:before, blockquote:after {
+	content:'';
+	content:none;
+}
+del { text-decoration:line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+
+table { border-collapse:collapse; border-spacing:0;}
+a img, img { border:none; }
+p { margin-bottom:5px; }
+a{ text-decoration:none; outline:none;}
+.clear, .clearfix { clear:both; }
+
+h1, h2, h3, h4, h5, h6 { font-family: 'GenevaRegular'; font-weight:normal; clear:both; margin-bottom:15px; padding-top:15px;}
+
+h1, h2, h3 {color:#0c1021; }
+h1 { font-size:30px; line-height:30px;}
+h2 { font-size:30px; line-height:30px;}
+h3 {font-size:20px; line-height:30px;}
+
+input[type="text"], input[type="password"], textarea { padding:4px 4px; font-family:Arial, Helvetica, sans-serif; font-size:13px; width:220px; border:1px solid #765448; }
+select { padding:2px 2px; border:1px solid #765448; }
+
+body { font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#3f3f3f; background:#fff url(images/body-bg.jpg) repeat-x top left; }
+
+#wrapper { width:960px; margin:0 auto; }
+#body-wrapper {background:url(images/gray-bg.jpg) repeat-x bottom left;}
+
+
+/**  HEADER  STYLE  **/
+#header { padding:0; margin:0;}
+#masthead { padding:0; height:92px;}
+
+#logo { float:left; width:220px;}
+#logo a { float:left; display:block; width:217px; height:77px; background:url(images/logo.png) no-repeat top left; text-indent:-99999px; }
+#header .top-contact{ float:right; padding:27px 19px 0 0;}
+#header .top-contact .arrow { font-size:20px; font-family: font-family: Verdana, Geneva, sans-serif;}
+#header .top-contact span {color:#eba136;}
+#header .top-contact .link_logo{ margin-left:165px; }
+#header .top-contact .arrow{background:url(images/arrow_small.png) no-repeat left center; padding:0 0 2px 14px; }
+
+
+
+#main-menu {  clear:both; height:35px; }
+
+#main-menu li { float:left; display:block;font-size:14px; margin:5px 0; padding:0 20px; height:25px; line-height:25px; font-family:'GenevaRegular', Arial, Helvetica, sans-serif; background:url(images/menu_stick.png) no-repeat right top; }
+
+#main-menu  ul.menu  { float:left; width:700px;list-style:none; }
+#main-menu ul.menu-right { float:right; width:200px; list-style:none;}
+
+/*++ CSS3 STYLE  ++*/
+#main-menu li:last-child { background:none} /*SUPPORT: all browser with IE7 + */
+
+#main-menu a {display:block; color:#363636;}
+#main-menu li a:hover, #main-menu li.current_page_item a { color:#ed8c01; }
+
+/*+++  MAIN CONTENT +++ */
+#main_content { width:100%;}
+#main_content .sidebar { float:left; width:250px;}
+#main_content .content { float:right; width:650px;}
+.sidebar img{ padding-top:5px;}
+.top_content, .buttom_content { float:left; width:100%; clear:both;}
+.buttom_content { margin:90px 0 10px 0;}
+
+.interview_coach { float: left; width:220px;}
+.candidate_screener { float:right; width:280px; padding-right:45px;}
+.top_content h1 { font-size:18px; color:#13599f}
+
+.video_title { float: left; width:300px;}
+.video_title li { background:url(images/arrow.png) no-repeat left center; padding:0 0 7px 25px; }
+
+.video_demo { float:right; width:300px;}
+
+/** HOMEPAGE CONTETN STYLE **/
+#homepage-content { float:left; padding:0px 10px; background:url(images/nutrition-fact.jpg) no-repeat 455px 80px;}
+
+#partner { margin:0 auto; width:580px;}
+
+/**  FOOTER STYLE **/
+#footer-wrap { height:100%; background:#e1eaf3 url(images/footer_bg.png) repeat-x top left; overflow:hidden;}
+#footer { margin:0 auto; width:960px; padding:25px 0 0 0; }
+#footer .widget { float:left; width:230px; padding-left:10px; height:150px; background:url(images/footer-seprator.png) no-repeat 0 10px;}
+#footer a{color:#FFF;}
+#footer li{ padding-bottom:5px;}
+.footer-bottom { padding:20px 0; overflow:hidden; clear:both;}
+#footer .copyright{ width:100%; float:left; padding-left:7px; padding-bottom:36px;overflow:hidden; color:#ffffff; font-size:12px; font-family:'GenevaRegular', Arial, Helvetica, sans-serif;}
+
+#footer .logo_openthink { float:right; width:100%;  text-align:right; overflow:hidden;}

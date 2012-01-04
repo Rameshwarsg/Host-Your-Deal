@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+Theme Name:CaviarFolioLanding
+Theme URI:
+Author:Smart Giraffes
+Author URI:http://www.smartgiraffes.com
+*/
+
+@import url('comment.css');
+
+/*-- START SECTION 1 - Reset Styling --*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+ol, ul { list-style: none; }
+blockquote { quotes: none; }
+blockquote:before, blockquote:after {
+	content: '';
+	content: none;
+}
+del { text-decoration: line-through; }
+
+h1, h2, h3, h4, h5, h6 { clear: both; font-weight: normal;  margin-bottom:15px; }
+h1, h2 { font-size:24px; color:#f26722; }
+h3, h4 { font-size:20px; color:#f26722; }
+ 
+
+/* tables still need 'cellspacing="0"' in the markup */
+
+table { border-collapse: collapse; border-spacing: 0;}
+a img, img { border: none; }
+p { margin-bottom: 18px; }
+
+.clear, .clearfix { clear:both; }
+
+input[type="text"], input[type="password"], textarea {
+	padding:4px 4px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	width:220px;
+	border:1px solid #765448;
+}
+select { padding:2px 2px; border:1px solid #765448; }
+
+a { text-decoration:none; outline:none;}
+
+body { font-family: "Century Gothic", Helvetica; font-size:14px;  width:100%; background:url(images/body-bg.png) repeat;   }
+/*-- END SECTION 1 - Reset Styling --*/
+#header{height:65px;}
+#wrapper { width:900px; margin:0 auto; padding:0; background:url(images/mainpage-bg.png) repeat;}
+
+#main { }
+#main .full-width { width:100% !important; border-radius:0 0 5px 5px; -moz-border-radius:0 0 5px 5px; -webkit-border-radius:0 0 5px 5px; 
+-moz-box-shadow:0 10px 20px #707070; -webkit-box-shadow:0 10px 20px #707070; box-shadow:0 2px 20px #707070; }
+#container{ float:left; width:900px; padding-top:50px;  }
+/**  container  STYLE  **/
+#container {position:relative;}
+
+#logo { float:left; width:335px; position:absolute; padding-left:40px; margin-top:-65px;}
+#logo a { float:left; display:block; width:335px; height:95px; background:url(images/logo.png) no-repeat top left; text-indent:-99999px; }
+#social-buttons { float:right;  margin-top:-67px;}
+#social-buttons .bg{ padding-right:35px;}
+#social-buttons .social-link{ margin-top:-158px; float:right; padding-right:48px;}
+#social-buttons .social-link img{ padding-left:5px;}
+#social-buttons .social-link li{ float:left; position:relative; margin-top:100px; padding:3px;}
+.seprator { padding: 50px 0 0 25px;}
+
+/*** BANNER STYLE ***/
+
+/** BODY CONTENT STYLE HERE **/
+
+
+
+#primary { float: right; width:300px; }
+
+
+/*** SIDE ABT STYLE **/
+h3.widget-title { font-size:20px; color:#745246;}
+
+
+/** HOMEPAGE CONTETN STYLE **/
+
+.left-content { float:left; display:block; width:390px; padding:35px 15px 60px 40px; }
+.left-content li.img { float:left; padding-left:10px;}
+.left-content li.text { float:right; width:255px; font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+.left-content h1 { color:#702120; font-size:17px; font-weight:bold; }
+.left-content .apps{ padding-top:46px;}
+.left-content .apps img{ padding:5px;  }
+.right-content { float:right; display:block; width:390px; padding:35px 0 0 10px; position:relative; }
+.right-content h1 { color:#702120;font-size:17px; font-weight:bold; }
+
+.contact-form { padding:0 35px 5px 0; font-family:"Arial Black", Gadget, sans-serif; font-size:13px; width:370px;}
+.contact-form li.first{ float:left; padding: 15px 10px 0 0; color:#A7A7A7;}
+.contact-form li.input{ float:right;}
+.contact-form li.input-textarea{ float:right;}
+
+
+.contact-form li.input{
+width: 250px;
+margin-top:10px;
+padding:15px;
+border-top:1px solid #CCCCCC;
+border-left:1px solid #CCCCCC;
+border-right:1px solid #999999;
+border-bottom:1px solid #999999;
+
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px; }
+
+.contact-form li.input-textarea{
+width:250px;
+height:140px;
+margin-top:10px;
+padding:15px;
+border-top:1px solid #CCCCCC;
+border-left:1px solid #CCCCCC;
+border-right:1px solid #999999;
+border-bottom:1px solid #999999;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px; }
+
+.contact-form img{ float:right; padding-top:7px;}
+.available-me img{ padding-top:8px;}
+
+/**  FOOTER STYLE **/
+#footer { width:100%; height:45px; font-family:Arial, Helvetica, sans-serif; padding:0; margin:0; font-size:12px; color:#b06d6c; background:url(images/body-bg.png) repeat;  }
+#footer p, img{ float:right; }
+#footer p{ padding-top:8px; margin-right:-25px;}
+#footer img{ padding-right:35px;}
